@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        p{
+            color: brown;
+        }
+        a:link, a:visited {
+            color:pink;
+            background-color: green;
+            padding: 15px 25px;
+            display: inline-block;
+        }
+        a:hover, a:active {
+            color:yellow;
+            background-color: black;
+        }
+        table, th, td {
+            border: 5px solid white;
+            border-collapse: collapse;
+            padding: 15px
+        }
+
+        .redes{
+            background-color: blue;
+            color: white;
+            border: 1px solid red;
+            padding: 5px;
+        }
+        
+        #bello{
+            text-align: center;
+        }
+        h3 {background-color: salmon; color:sienna; text-align:center; border:solid green; padding: 3px; margin:100px}
+    </style>
+    <p id="regreso">
+        holi?
+        <a href="#sub1">Bajar al punto S </a>
+    </p>
+    <title>
+        Esto sale en la pestaña
+    </title>
+</head>
+
+
+<!--El fondo puede tener cualquier color, puedes poner el nombre(blueviolet) o el código(rgb(160, 58, 255))-->
+<body style="background-image:url('Imagenes/Emote bronce.png'); 
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: 372 372; 
+background-position: center"> 
+<header>
+    <p style="background-color: black; color:white">Esto sale como encabezado</p>
+</header>
+
+<nav>
+    <p style="background-color: yellow; color:blue">Esto sale como barra de navegacion</p>
+</nav>
+<section>
+    <p style="background-color: blue; color:white">Esto sale como seccion</p>
+</section>
+<aside>
+    <p style="background-color: red; color:black; float:right">Esto sale a un lado</p>
+</aside>
+<div style="border: 1px solid green; width: 20%; padding: 10px"> Bloque</div>
+
+    <!--Atributos dentro de los tags se separan por un ";"-->
+<h1 style="font-size:60px; background-color: rgb(2, 3, 3); color:white; font-family:'Arial'">
+    Esto es un subtitulo amigo
+</h1>
+<p title="mensaje secreto" style="font-size:200%">
+    yo escribi este parrafo.
+</p>
+<p>
+    <!--El tag <br> es un salto de linea dentro del parrafo-->
+    <b> <!--Bold-->
+        <i> <!--Italic-->
+    Tambien <br> escribi este parrafo
+        </i>
+    </b>
+    <br>
+    <em> <!--Emfatizado-->
+        AAAAAHHH
+    </em>
+    <br> 
+    <mark> <!--Con marcatextos-->
+        Hay
+    </mark>
+    <small> <!--Pequeño-->
+        varios
+    </small>
+    <del> <!--Tachado-->
+        elementos
+    </del>
+    <ins><!--Subrayado-->
+        para
+    </ins>
+    <sub><!--Subindice-->
+        dar
+    </sub>
+    <sup><!--Superindice-->
+        formato
+    </sup>
+    <strong><!--Texto importante-->
+        al texto
+    </strong>
+</p>
+
+
+<!--Linea horizontal, para separar-->
+<hr>
+
+
+<!--Prueba de que en los headings no importa si hay un salto de linea (el browser lo ignora)-->
+<h2 style="text-align:center; border:5px solid red">
+    Esto es un segundo
+     subtitulo amigo
+</h2>
+
+
+<!--Al igual que en el heading los saltos de linea 
+    e incluso los espacios extra entre las palabras son ignorados-->
+<p>
+    Estamos probando     un link que...
+    <!--Hipervinculos en textodentro de un parrafo-->
+    <a href="https://www.twitch.tv/irontony99" target="_blank">
+    Te lleva                     a 
+    twitch
+    </a>
+</p>
+
+<h3 id="sub1">
+    Punto S : Css interno
+</h3>
+
+<pre> 
+Holiwiris,
+     Esta carta es
+para notar que el tag "pre"      mantiene 
+
+            el formato escrito en el 
+    co&#769digo
+</pre>
+
+<p>
+    Este parrafo es una <cite>cita</cite> de Irontony
+</p>
+<blockquote cite="http://www.twitch.tv/irontony99">
+    Hey muy buenas a todos, aqui yoshi... 
+    setecientos setenta y siete en un video en directo 
+    que se titula awawawawaw.
+</blockquote>
+
+<p> 
+    Esta es una cita corta <q> Yoshi awawawawa</q>
+</p>
+<p>
+    La abreviacion <abbr title="Los Mas Wapos">LMW</abbr> es para Los Mas Wapos
+</p>
+
+<p>
+    <bdo dir="rtl">
+     Khe esta pasandaaa???
+    </bdo>
+</p>
+Holiwiris
+
+<a href="mailto:jaanaya99@gmail.com">
+<img src="Imagenes/Emote basico.png" style="float:left" alt="emote" width="142" height="142">
+</a>
+<p>
+<map name="plant">
+    <area shape="rect" coords="80, 152, 653, 446" href="Opcion 1.html">
+    <area shape="rect" coords="80, 588, 653, 875" href="Opcion 2.html" onclick="opcion2()">
+</map>
+<script>
+    function opcion2(){
+        alert("Elegiste la opcion 2!!!")
+    }
+</script>
+
+<img src="Imagenes/plantilla.png" alt="plantilla" width="720px" height="1280px" usemap="#plant">
+
+</p>
+
+<table style="width: 50%; text-align: center; color: yellow; background-color: blue">
+    <caption style="color: black; background-color: yellow;">Tabla de nombres</caption>
+<tr>
+    <th colspan="2">Nombre(s)</th>
+    <th>Apellido Paterno</th>
+    <th>Apellido Materno</th>
+</tr>
+<tr>
+    <td>Mariana</td>
+    <td>Leticia</td>
+    <td rowspan="2">Anaya</td>
+    <td rowspan="2">Fuentes</td>
+
+</tr>
+<tr>
+    <td>Jose</td>
+    <td>Antonio</td>
+</tr>
+<tr>
+    <td>Mariana</td>
+    <td>-</td>
+    <td>Silva</td>
+    <td>Valencia</td>
+</tr>
+</table>
+<ul style="list-style-type: georgian;">
+    <li>Leche</li>
+    <li>Cafe</li>
+    <li>Huevo</li>
+    <li>Tortillas <span class="redes">Redondas</span></li>
+</ul>
+
+<ol start="12">
+    <li>Leche</li>
+    <li>Cafe</li>
+    <li>Huevo</li>
+    <li>Tortillas</li>
+</ol>
+
+<div style="background-color: gray; color:blue; padding: 5px">
+<dl>
+    <dt>Leche</dt>
+    <dd>- pues pal cerial</dd>
+    <dt>Cafe</dt>
+    <dd>- pues pa despertar</dd>
+
+</dl>
+</div>
+
+
+<p>
+    En este parrafo se puede introducir un <span style="border: 1px solid blueviolet; padding:.3cm">BLOQUE</span> sin generar un salto de linea
+</p>
+
+<button onclick="EliminarFormato()">Eliminar Contenido de clase "redes"</button>
+
+<div class="redes">
+    <h4>Red de pesca</h4>
+    <p>Esta red se usa para pescar</p>
+</div>
+
+<div class="redes">
+    <h4 id="bello">Red Neuronal</h4>
+    <p>Esta red se usa para pensar</p>
+</div>
+
+<div class="redes">
+    <h4>Red onda</h4>
+    <p>Describe un objeto circular</p>
+</div>
+
+<script>
+    function EliminarFormato(){
+        var x = document.getElementsByClassName("redes");
+        for(var i = 0; i < x.length; i++){
+            x[i].style.display = "none";
+        }
+    }
+</script>
+
+<h1 id="cambio">Desaparecere</h1>
+<button onclick="primeraFrase()">Cuerpo</button>
+<button onclick="segundaFrase()">Mente</button>
+
+<script>
+    function primeraFrase(){
+        document.getElementById("cambio").innerHTML = "Pero mi cuerpo se unira con el universo";
+    }
+</script>
+
+<script>
+    function segundaFrase(){
+        document.getElementById("cambio").innerHTML ="Pero mi mente es inmortal";
+    }
+</script>
+
+<iframe src="index.html" title="pagina?" style="width: 50%; height: 50%; border:5px solid yellow"></iframe>
+<hr>
+<button type="button" onclick="document.getElementById('chulo').innerHTML = Date()">Fecha y hora</button>
+<p id="chulo"></p>
+
+<script>
+    function cambiarFuente(){
+        document.getElementById("chulo").style.color = "red";
+        document.getElementById("chulo").style.fontSize = "30px";
+        document.getElementById("chulo").style.backgroundColor = "blue";
+
+    }
+</script>
+<button type="button" onclick="cambiarFuente()">Modificar</button>
+<footer>
+<p>
+    Esto es el pie de pagina
+</p>
+<p>
+<a href="mailto:jaanaya99@gmail.com">correo</a>
+</p>
+</footer>
+</body>
+
+<address> 
+    En mi casita 
+</address>
+
+<aside>
+
+    Que pasa calabaza
+</aside>
+
+</html>
+

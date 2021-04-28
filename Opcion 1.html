@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: gray;
+      color: black;
+    }
+</style>
+    <title>
+        Opcio&#769n 1
+    </title>
+</head>
+<body>
+
+
+
+<script>
+
+function logo(sw){
+  var log;
+  if (sw == 0){
+    log = "Imagenes/Emote basico.png"
+  }
+  if (sw == 1){
+    log = "Imagenes/Emote bronce.png"
+  }
+  if (sw == 2){
+    log = "Imagenes/Emote plata.png"
+  } 
+  if (sw == 3){
+    log = "Imagenes/Emote oro.png"
+  }
+  document.getElementById('ironlogo').src = log;
+}
+</script>
+
+<h1 id="opcion1"> Se ha elegido la opcio&#769n numero 1</h1>
+
+<ul>
+<li><a href="index.html#regreso">Regresar</a></li>
+<li><a href="Opcion 2.html">Opcio&#769n 2</a></li>
+<li><a href="https://www.twitch.tv/irontony99">Twitch</a></li>
+</ul>
+
+
+<img id = ironlogo src="Imagenes/Emote basico.png"  alt="emote" width="142" height="142">
+<p>
+<button type= "button" onclick="logo(1)">Bronce</button>
+<button type= "button" onclick="logo(2)">Plata</button>
+<button type= "button" onclick="logo(3)">Oro</button>
+<button type= "button" onclick="logo(0)">Basico</button>
+</p>
+
+
+
+
+<figure style="float:right">
+<img src="Imagenes/Chocolate el perro pidata.png" alt="Chocolate el perro pidata" >
+
+<figcaption>Chocolate el Perro Pidata</figcaption>
+
+
+</figure>
+</body>
+</html>
